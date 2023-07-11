@@ -1,0 +1,18 @@
+name: Project
+description: Create a new SDK project.
+body:
+  - type: markdown
+    attributes:
+      value: You're about to create a project for our SDK teams.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of what should be delivered by this project.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |-
+        ## Thanks 🙏
+        After submitting this issue, your project will appear on our [project overview board](https://github.com/orgs/getsentry/projects/114).
