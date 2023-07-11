@@ -1,9 +1,6 @@
-name: Project
-description: Create a new SDK project.
+name: New Project
+description: Create a new project for our SDK teams.
 body:
-  - type: markdown
-    attributes:
-      value: You're about to create a project for our SDK teams.
   - type: textarea
     id: description
     attributes:
@@ -11,8 +8,39 @@ body:
       description: A clear and concise description of what should be delivered by this project.
     validations:
       required: true
+  - type: textarea
+    id: notion
+    attributes:
+      label: Notion Document(s)
+      description: Does any other documentation already exist?
+      placeholder: Please add links to relevant Notion pages
+    validations:
+      required: false
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Stakeholder(s)
+      description: Please let us know who has an interest in this project.
+    validations:
+      required: false
+  - type: input
+    id: rfc
+    attributes:
+      label: RFC
+      description: Is there already an RFC for this?
+      placeholder: https://github.com/getsentry/rfcs/...
+    validations:
+      required: false
+  - type: input
+    id: slack-channel
+    attributes:
+      label: Slack-Channel
+      description: Where is this project being discussed in Slack?
+      placeholder: "#proj-my-new-project"
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |-
-        ## Thanks 🙏
-        After submitting this issue, your project will appear on our [project overview board](https://github.com/orgs/getsentry/projects/114).
+        #### Next Steps
+        After submitting this issue, your project will appear on our [project overview board](https://github.com/orgs/getsentry/projects/114) and a director will need to prioritize it.
