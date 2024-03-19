@@ -8,6 +8,20 @@ body:
       description: A clear and concise description of what should be delivered by this project.
     validations:
       required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should we be doing this?
+      description: If it is unclear why this is of importance, this ask might not be prioritized to your liking. Be specific about the goal, that you are trying to achieve. Tell us about the big picture and provide us with as much context as you can.
+    validations:
+      required: true
+  - type: textarea
+    id: why-now
+    attributes:
+      label: Why now?
+      description: Please clarify why this came up just now. Be as specific as possible and also outline dependencies and timelines that you can share with us. 
+    validations:
+      required: true
   - type: input
     id: rfc
     attributes:
