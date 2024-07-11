@@ -70,6 +70,8 @@ body:
           ## SDKs
           - [ ] JavaScript SDK
           - [ ] Python SDK
+          - [ ] PHP SDK
+          - [ ] Go SDK
           - [ ] Ruby SDK
           - [ ] Elixir SDK
           - [ ] Rust SDK
