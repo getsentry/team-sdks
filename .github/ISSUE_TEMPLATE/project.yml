@@ -71,6 +71,8 @@ body:
           - [ ] JavaScript SDK
           - [ ] Python SDK
           - [ ] PHP SDK
+          - [ ] Laravel SDK
+          - [ ] Symfony SDK
           - [ ] Go SDK
           - [ ] Ruby SDK
           - [ ] Elixir SDK
