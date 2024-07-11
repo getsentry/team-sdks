@@ -69,6 +69,7 @@ body:
           ```[tasklist]
           ## SDKs
           - [ ] JavaScript SDK
+          - [ ] Electron SDK
           - [ ] Python SDK
           - [ ] PHP SDK
           - [ ] Laravel SDK
