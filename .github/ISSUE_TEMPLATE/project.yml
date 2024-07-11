@@ -61,6 +61,34 @@ body:
       placeholder: Mobile, Web Backend, Web Frontend
     validations:
       required: false
+  - type: textarea
+    id: sdks
+    attributes:
+      label: SDKs
+      value: |
+          ```[tasklist]
+          ## SDKs
+          - [ ] JavaScript SDK
+          - [ ] Python SDK
+          - [ ] Ruby SDK
+          - [ ] Elixir SDK
+          - [ ] Rust SDK
+          - [ ] Java SDK
+          - [ ] .NET SDK
+          - [ ] Unity SDK
+          - [ ] Unreal SDK
+          - [ ] PowerShell SDK
+          - [ ] Android SDK
+          - [ ] Apple/Cocoa SDK
+          - [ ] Capacitor SDK
+          - [ ] Cordova SDK
+          - [ ] Dart SDK
+          - [ ] Flutter SDK
+          - [ ] Kotlin Multiplatform SDK
+          - [ ] React Native SDK
+          - [ ] Native SDK
+          - [ ] Sentry CLI
+          ```
   - type: markdown
     attributes:
       value: |-
