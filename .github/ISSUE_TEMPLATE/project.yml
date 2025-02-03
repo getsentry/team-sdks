@@ -67,22 +67,25 @@ body:
       label: SDKs
       value: |
           ```[tasklist]
-          ## SDKs
+          ## Team Web Frontend SDKs
           - [ ] JavaScript SDK
           - [ ] Electron SDK
+          ```
+          ```[tasklist]
+          ## Team Web Backend SDKs
           - [ ] Python SDK
           - [ ] PHP SDK
           - [ ] Laravel SDK
           - [ ] Symfony SDK
+          - [ ] Java SDK
           - [ ] Go SDK
           - [ ] Ruby SDK
           - [ ] Elixir SDK
           - [ ] Rust SDK
-          - [ ] Java SDK
-          - [ ] .NET SDK
-          - [ ] Unity SDK
-          - [ ] Unreal SDK
-          - [ ] PowerShell SDK
+          - [ ] Sentry CLI
+          ```
+          ```[tasklist]
+          ## Team Mobile SDKs
           - [ ] Android SDK
           - [ ] Apple/Cocoa SDK
           - [ ] Capacitor SDK
@@ -92,7 +95,14 @@ body:
           - [ ] Kotlin Multiplatform SDK
           - [ ] React Native SDK
           - [ ] Native SDK
-          - [ ] Sentry CLI
+          ```
+          ```[tasklist]
+          ## Team GDX SDKs
+          - [ ] .NET SDK
+          - [ ] Unity SDK
+          - [ ] Unreal SDK
+          - [ ] PowerShell SDK
+          - [ ] Godot SDK
           ```
   - type: markdown
     attributes:
